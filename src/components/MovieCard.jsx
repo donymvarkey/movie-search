@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
           style={{ height: "400px", objectFit: "cover" }}
           variant="top"
           src={
-            movie.Poster != "N/A"
+            movie.Poster !== "N/A"
               ? movie.Poster
               : "https://via.placeholder.com/400"
           }
