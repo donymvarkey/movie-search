@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, Badge } from "react-bootstrap";
+import { Card, Badge, } from "react-bootstrap";
 
 const MovieCard = ({ movie }) => {
   return (
     <>
       <Card className="border-0">
         <Card.Img
-          style={{ height: "400px", objectFit: "cover" }}
+          style={{ objectFit: "contain" }}
           variant="top"
           src={
             movie.Poster !== "N/A"
